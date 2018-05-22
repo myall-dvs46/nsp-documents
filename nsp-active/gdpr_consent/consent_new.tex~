@@ -1,0 +1,182 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{parskip}
+\usepackage{lipsum}
+
+
+%----------------------------------------------------------------------------------------
+%	Tcolorbox Packages - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\usepackage[most]{tcolorbox}
+\usepackage{varwidth}
+
+%----------------------------------------------------------------------------------------
+%	Sets the Font - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%Configuration for One Page Form
+%----------------------------------------------------------------------------------------
+%	Sets the Page Margins - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+ \usepackage{vmargin}
+\setmarginsrb{0.5 cm}{0.5 cm}{0.5 cm}{0.5 cm}{0.5 cm}{0.5 cm}{0.5 cm}{0.5 cm}
+
+%----------------------------------------------------------------------------------------
+%	Needed to Add Images **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+%----------------------------------------------------------------------------------------
+%	Colourbox Design  **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\newtcolorbox{mybox}[1]{colback=gray!5!white,
+colframe=gray!95!black,fonttitle=\bfseries,
+title=#1}
+%----------------------------------------------------------------------------------------
+%	Removes Default Hyphenation  **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%----------------------------------------------------------------------------------------
+%	Sets the Page Margins - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\title{Data Protection - Participant Agreement}
+\author{Stephen Myall}
+
+\begin{document}
+\pagestyle{empty}  %Removes header and footer
+\noindent
+
+%----------------------------------------------------------------------------------------
+%	Sets Page Title - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\begin{minipage}{.15\textwidth}
+ {\includegraphics[scale = 0.18]{logo.png}}
+\end{minipage}% This must go next to `\end{minipage}`
+\begin{minipage}{.7\textwidth}
+\begin{center}
+{\huge Data Protection Participation Agreement}  \\  {\large with Northside Partnership \textit{{\small (NSP-DPPA v.1.0)}}} \\ 
+\end{center}
+\end{minipage}% This must go next to `\end{minipage}`
+\begin{minipage}{.15\textwidth}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+%	Sets Horizontal Line Under Page Title - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\rule{\linewidth}{0.2 mm} 
+%----------------------------------------------------------------------------------------
+%	About This form - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+
+\subsubsection*{Our work with you}
+{\small Northside Partnership work together with individuals, groups, families and businesses to bring about positive change in people’s lives and communities in north east Dublin.  To provide our services we need to get to know you and gather some information about your current circumstances.  When you join with us we will commit to work together in a way that values your skills, capabilities and goals.} \\
+
+
+
+\begin{mybox}{Why we collect your information}
+\begin{small}
+\begin{itemize}
+     \item To make sure you are eligible for the service and that we are the right service for you to meet your goals
+    \item To make a plan and to understand your goals/aspirations and challenges
+    \item To track the steps we have both taken to meet the goals in the plan
+    \item Work with you in creating a progression plan and track the activities to completion
+    \item To research ‘what works well’ which helps improve our services to better meet what the community sees as important.
+\end{itemize}
+\end{small}
+\end{mybox}
+
+\begin{mybox}{Why this agreement is necessary}
+\begin{small}
+\begin{itemize}
+    \item To set out the details of the information that we collect, how we process it and who we share it with.
+    \item To explain your rights under data protection law in relation to our processing of your data.
+    \item To acquire your consent/agreement in order to process your personal data \textit{(which may include some sensitive data regarding your background and current circumstances)}.
+   \end{itemize} 
+\end{small}
+
+\end{mybox}
+
+
+\begin{mybox}{Your Information and how we process it}
+\begin{small}
+\begin{itemize}
+    \item The personal data we collect will only be provided by you. 
+    \item We store your information on paper forms and on various databases. Paper records are locked in filing cabinets when not in use and our databases are secured using the latest technology available in accordance with the Data Protection Law. 
+    \item Our policy operates on the principle that we keep your personal data for no longer than is necessary only for the purpose for which we collected it.  It is also kept in accordance with any contract obligations that our funders requires us to apply. 
+\item We may share your data with other service providers \textit{(e.g. contacting a potential employer or making an appointment with another service)}.  This will only be done with your prior agreement
+
+\end{itemize}
+\end{small}
+\end{mybox}
+
+
+\begin{mybox}{Your Rights}
+{\small Under the Data Protection Law you have the right to withdraw from this agreement and/or request a copy of your information at any time.  You can also have your file permanently deleted. } \\
+\textit{{\footnotesize **Note: the right of children to be protected from harm overrides all considerations of confidentiality in line with the Childcare Act, 1991}} 
+\end{mybox}
+
+\subsubsection*{Our agreement \textit{{\footnotesize (If you are under the age of 18 this section must be filled out by a Parent/Guardian)}} }
+
+\begin{small}
+\begin{itemize}
+    \item I $\rule{8cm}{0.15mm}$(\textit{print name) }understand by signing this agreement that Northside Partnership will collect, store and share my information for the specific purpose described above.
+    \item The information provided by me will not be disclosed otherwise than in accordance with the law.
+    \item I understand I can refuse or withdraw from this agreement at any time.
+    \item I understand Northside Partnership or their funders may contact me to get feedback on the services I received. \\ 
+\end{itemize}
+\end{small}
+
+ %----------------------------------------------------------------------------------------
+%	Signature Block - **(DO NOT CHANGE)**
+%----------------------------------------------------------------------------------------
+\begin{minipage}{.37\textwidth}
+\begin{mybox}{Your signature}
+ \vspace*{0.3 cm}
+\end{mybox}
+\end{minipage}% This must go next to `\end{minipage}`
+\begin{minipage}{.26\textwidth}
+\begin{mybox}{Today's date}
+ \vspace*{0.3 cm}
+\end{mybox}
+\end{minipage}% This must go next to `\end{minipage}`
+\begin{minipage}{.37\textwidth}
+\begin{mybox}{Witnessed by:}
+ \vspace*{0.3 cm}
+\end{mybox}
+\end{minipage}% This must go next to `\end{minipage}`
+
+
+
+\centering
+
+{\includegraphics[scale = 0.55]{logo-footer.png}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
